@@ -27,6 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.azanulhaque.tech"
 twitter_username: AzanulZ
 github_username:  Azanul
+linkedin_username: azanul-haque
 
 # Build settings
 theme: minima
