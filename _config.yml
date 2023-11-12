@@ -30,8 +30,11 @@ github_username:  Azanul
 linkedin_username: azanul-haque
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima@2863624
+minima:
+  skin: dark
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
 
