@@ -25,14 +25,15 @@ description: >- # this means to ignore newlines until "baseurl:"
   Your source for technical insights and coding wisdom.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.azanulhaque.tech"
-twitter_username: AzanulZ
-github_username:  Azanul
-linkedin_username: azanul-haque
 
 # Build settings
 remote_theme: jekyll/minima@2863624
 minima:
   skin: dark
+  social_links:
+    - { platform: github,  user_url: "https://github.com/Azanul" }
+    - { platform: linkedin, user_url: "https://twitter.com/azanul-haque" }
+    - { platform: twitter, user_url: "https://twitter.com/AzanulZ" }
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
