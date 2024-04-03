@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Python context managers"
-date:   2024-04-03 14:41:41 +0000
+date:   2024-04-03 17:05:00 +0530
 categories: python expert
 ---
 The [with] statement in Python is primarily used for resource management. It ensures that a resource is properly initialized and released when it's no longer needed, even if exceptions occur during the execution. It can also be used for suppressing certain exceptions or outputs.
