@@ -21,9 +21,8 @@ def secret_message():
 ```
 
 2. Let's create our message box. Our message box is going to be a context manager, so it has to implement the necessary __enter__() and __exit__() methods.
-__enter__() is called at the start of the context and __exit__() is called at the end, duh! 
-__enter__() will return an object which can be accessed with `as` keyword. __exit__() is called with 3 arguments: exception type, exception value and traceback, these values are going to be `None` is no exception occured in the context.
-In __enter__() method, we're storing the stdout in an instance valiable `_original` and setting the stdout to a `StringIO()` object. In __exit__() method, we're resetting the stdout and storing the captured output in `_original`.
+    __enter__() is called at the start of the context and __exit__() is called at the end, duh! 
+    __enter__() will return an object which can be accessed with `as` keyword. __exit__() is called with 3 arguments: exception type, exception value and traceback, these values are going to be `None` is no exception occured in the context. In __enter__() method, we're storing the stdout in an instance valiable `_original` and setting the stdout to a `StringIO()` object. In __exit__() method, we're resetting the stdout and storing the captured output in `_original`.
 ```python
 from io import StringIO
 import sys
@@ -85,8 +84,8 @@ else:
 ```
 
 6. In case we face an exception but want to ignore certain exception or certain type of exceptions.
-We define a `RuntimeError`, raise it from secret_message() function and handle it in __exit__() method.
-`True` returned from __exit__() implies the exception raised has been handled else the exception is raised further down the sttack.
+    We define a `RuntimeError`, raise it from secret_message() function and handle it in __exit__() method.
+    `True` returned from __exit__() implies the exception raised has been handled else the exception is raised further down the sttack.
 ```python
 NOT_REALLY_AN_EXCEPTION = RuntimeError("Just kidding")
 
