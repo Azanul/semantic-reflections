@@ -9,7 +9,7 @@ categories: python advanced
 
 Let's take an example to dive into [generators]. Imagine that you're a chef and you don't want to prepare the ingredients beforehand as you don't know how many and which dishes are going to sell today. We're going to create a pipeline from ordering random dishes to preparing and serving them.
 
-1. Define a menu and the ingredients required for each dish first
+1. Define a menu and the ingredients required for each dish first.
   ```python
   ingredients = {
       "Pizza": ["Flour", "Yeast", "Tomato Sauce", "Mozzarella Cheese", "Pepperoni"],
@@ -18,7 +18,7 @@ Let's take an example to dive into [generators]. Imagine that you're a chef and 
       "Chicken Biryani": ["Chicken", "Onion", "Garlic", "Rice", "Yogurt", "Spices"],
       "Salad": ["Mixed Greens", "Tomatoes", "Cucumbers", "Carrots", "Dressing"]
   }
-
+  
   menu = list(ingredients.keys())
   ```
 
