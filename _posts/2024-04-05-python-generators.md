@@ -104,7 +104,9 @@ Let's take an example to dive into [generators]. Imagine that you're a chef and 
     ```
 
 This is very practical for a one man operation but what if it were a restraunt, multiple waiters, mutiple chefs, serving multiple. In that case we'll have to dive into concurrency, that's a story for another day. Till then check out these links for more on generators:
-- https://peps.python.org/pep-0255/
-- https://linuxgazette.net/100/pramode.html
+- [https://peps.python.org/pep-0255/]
+- [https://linuxgazette.net/100/pramode.html]
 
 [generators]: https://wiki.python.org/moin/Generators
+[https://linuxgazette.net/100/pramode.html]: https://linuxgazette.net/100/pramode.html
+[https://peps.python.org/pep-0255/]: https://peps.python.org/pep-0255/
