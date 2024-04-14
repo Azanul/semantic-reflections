@@ -201,11 +201,11 @@ Python's `asyncio` module provides a way to write concurrent code using the `asy
 ## Pros & Cons
 
 | Feature	| Asyncio	| Multithreading (CPython) |
--------------------------------------------------
+| ------------|----------|--------------------------- |
 | Concurrency Model |	Single-threaded, event loop driven |	Multi-threaded |
 | CPU-bound tasks	| Not ideal (overhead for context switching) |	Limited benefit due to GIL (serializes execution) |
-| I/O-bound tasks |	Well-suited (handles waiting efficiently)	Less efficient (overhead for thread management) |
-| Memory Usage |	Lower (fewer threads)	Higher (more threads) |
+| I/O-bound tasks |	Well-suited (handles waiting efficiently) |	Less efficient (overhead for thread management) |
+| Memory Usage |	Lower (fewer threads) |	Higher (more threads) |
 | Complexity |	Simpler (fewer potential race conditions) |	More complex (requires synchronization) |
 | Error Handling |	Easier to reason about errors	| Error handling can be trickier (race conditions) |
 | Learning Curve |	Steeper (different programming paradigm) |	Easier to learn (familiar thread concepts) |
