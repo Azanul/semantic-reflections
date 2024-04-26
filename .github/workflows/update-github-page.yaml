@@ -1,7 +1,6 @@
 name: Zola on GitHub Pages
 
 permissions:
-  pages: write
   contents: write
 
 on: 
