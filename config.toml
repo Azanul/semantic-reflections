@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://blog.azanulhaque.tech"
+base_url = "https://blog.azanulhaque.dev"
 
 theme = "feather"
 
