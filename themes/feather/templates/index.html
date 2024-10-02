@@ -45,6 +45,9 @@
     {% endif %}
 
     {% block extra_head %}
+    {% block rss %}
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
+{% endblock %}
     {% endblock extra_head %}
 </head>
 
